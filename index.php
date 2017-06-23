@@ -11,3 +11,4 @@ require_once('views/footer.php');
   This is first module
 </div>
 <?php echo 'Hello world, again'; ?>
+<!-- This is comment -->
