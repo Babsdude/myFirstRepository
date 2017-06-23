@@ -7,4 +7,3 @@ echo ' World!';
 
 require_once('views/footer.php');
 ?>
-
