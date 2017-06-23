@@ -7,3 +7,6 @@ echo ' World!';
 
 require_once('views/footer.php');
 ?>
+<div>
+  This is first module
+</div>
