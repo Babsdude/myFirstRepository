@@ -15,3 +15,6 @@ require_once('views/footer.php');
 <div>
   This is third module
 </div>
+<div>
+  And this is third module
+</div>
