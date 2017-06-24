@@ -20,8 +20,24 @@ require_once('views/footer.php');
 </div>
 <?php
 
-require_once('Tank.php');
+/* require_once('Tank.php');
+
+$Tank = new Tank();
+
+$Tank->setTankName('Panther');
+
+echo $Tank->getTankName(); */
+
+require_once('TankInfo.php');
+
+$TankInfo = new TankInfo();
+
+$TankInfo->wierdFunc();
+echo '<br>';
+$TankInfo->echoing();
+
+echo '<br>';
 
 
-
+TankInfo::printCrap('5');
 ?>
