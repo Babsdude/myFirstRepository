@@ -1,6 +1,6 @@
 <?php
 
-require('Tank.php');
+require_once('Tank.php');
 
 class TankInfo extends Tank
 {

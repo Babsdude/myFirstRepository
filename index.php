@@ -37,7 +37,12 @@ echo '<br>';
 $TankInfo->echoing();
 
 echo '<br>';
-
+require('TankInfoYears.php');
 
 TankInfo::printCrap('5');
+echo '<br>';
+$TankInfoClass = new TankInfoYears();
+$result = TankInfoYears::addNumbers(5,7);
+echo $result;
+echo '<br>';
 ?>
