@@ -18,3 +18,10 @@ require_once('views/footer.php');
 <div>
   And this is third module
 </div>
+<?php
+
+require_once('Tank.php');
+
+
+
+?>
