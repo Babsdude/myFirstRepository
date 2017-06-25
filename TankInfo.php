@@ -23,7 +23,7 @@ class TankInfo extends Tank
     echo self::$int;
   }
 
-  public static function printCrap($crap)
+  public static function printCrap($crap) 
   {
     echo 'You printed this crap: ' . $crap;
   }
